@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
 
     @ParameterizedTest
-    @ValueSource(strings = {"a", "Hannah", "Race Car", "\"race %&,.* %c  ar! !\""})
+    @ValueSource(strings = {"a", "aa", "maDam", "Hannah", "Race Car", "\"race %&,.* %c  ar! !\""})
     @DisplayName("given a time between 5 and 12, greeting returns good morning")
     public void givenAStringReturnTrue(String word) {
         boolean expected = true;
@@ -18,7 +18,7 @@ class MainTest {
     }
 
     @ParameterizedTest
-    @ValueSource(strings = {"a", "Hannah", "Race Car", "\"race %&,.* %c  ar! !\""})
+    @ValueSource(strings = {"a", "aa", "maDam", "Hannah", "Race Car", "\"race %&,.* %c  ar! !\""})
     @DisplayName("given a time between 5 and 12, greeting returns good morning")
     public void givenAStringReturnTrueRecursion(String word) {
         boolean expected = true;
