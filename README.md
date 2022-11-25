@@ -21,13 +21,15 @@ If that's true we save the value in the boolean and return it.
 
 ![iterate string to check condition](https://user-images.githubusercontent.com/58257066/203944297-67a9ff81-c7b0-4f32-ad5e-3e4caf676acc.JPG)
 
+
 *The second method
 
 The check for null, empty, special characters, white spaces and capital letters are the same.
 
 We use substring method to check if the current String is palindrome and using recursion we remove the first and last characters of the string and check again until all the characters are checked or until first and last don't match
 
-[recursion check](https://user-images.githubusercontent.com/58257066/203945440-20db818f-5a09-4700-b320-dd015feafdcf.JPG)
+![recursion method check](https://user-images.githubusercontent.com/58257066/203946572-e0ca30aa-617f-4352-946f-1f612ca653c4.JPG)
+
 
 *Testing was done using Junit for both methods:
 
